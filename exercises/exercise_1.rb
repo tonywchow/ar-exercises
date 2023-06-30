@@ -4,8 +4,6 @@ puts "Exercise 1"
 puts "----------"
 
 # Your code goes below here ...
-class Store < ActiveRecord::Base
-end
 
 burnaby = Store.create(
   name: 'Burnaby',
